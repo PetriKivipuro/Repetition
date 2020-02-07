@@ -2,13 +2,18 @@
 
 namespace exercise_16
 {
-  class Program
-  {
-    public static void Main(string[] args)
+    class Program
     {
+        public static void Main(string[] args)
+        {
 
-      // Write your code here:
+            // Write your code here:
+            Console.WriteLine("How many days?");
+            int days = Convert.ToInt32(Console.ReadLine());
 
+            Console.WriteLine(days * 86400);
+            //86400 on sekuntimäärä / päivä
+
+        }
     }
-  }
 }
