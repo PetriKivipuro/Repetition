@@ -8,6 +8,12 @@ namespace exercise_46
     {
 
       // Write your code here:
+      int value = Convert.ToInt32(Console.ReadLine());
+
+      for (int i = value; i <= 100; i++)
+      {
+        Console.WriteLine(i);
+      }
 
     }
   }

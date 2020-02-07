@@ -8,7 +8,18 @@ namespace exercise_47
     {
 
       // Write your code here:
-      
+      Console.WriteLine("Where to?");
+      int whereTo = Convert.ToInt32(Console.ReadLine());
+      Console.WriteLine("Where from?");
+      int whereFrom = Convert.ToInt32(Console.ReadLine());
+
+      for (int i = whereFrom; i <= whereTo; i++) //mistä -- minne
+
+      {
+        Console.WriteLine(i);
+      }
+
+
     }
   }
 }
