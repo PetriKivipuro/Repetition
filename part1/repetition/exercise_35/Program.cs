@@ -2,12 +2,30 @@
 
 namespace exercise_35
 {
-  class Program
-  {
-    public static void Main(string[] args)
+    class Program
     {
-      // Write your code here:
+        public static void Main(string[] args)
+        {
+            // Write your code here:
+            while (true)
+            {
+                Console.WriteLine("Give a number:");
+                int number = Convert.ToInt32(Console.ReadLine());
 
+                if (number == 42)
+                {
+                    break;
+                }
+
+                else /*if (number != 42)*/
+                {
+                    continue;
+                }
+
+            }
+
+
+
+        }
     }
-  }
 }
