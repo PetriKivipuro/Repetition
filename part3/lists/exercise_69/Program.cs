@@ -18,6 +18,19 @@ namespace exercise_69
         list.Add(input);
       }
 
+      Console.WriteLine("From where: ");
+      int fromWhere = Convert.ToInt32(Console.ReadLine());
+      Console.WriteLine("Where to: ");
+      int whereTo = Convert.ToInt32(Console.ReadLine());
+
+      for (int i = 0; i < list.Count; i++)
+      {
+        int num = list[i];
+        if (fromWhere <= num && whereTo >= num)
+        {
+          Console.WriteLine(num);
+        }
+      }
     }
   }
 }
